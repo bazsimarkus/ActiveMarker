@@ -1,0 +1,11 @@
+Current	Ratio:	3,509	Attempts:	114	Success:	4	DetectTime:	7786	DecodeTime:	178	When:	244280
+Current	Ratio:	5,983	Attempts:	117	Success:	7	DetectTime:	9851	DecodeTime:	157	When:	251480
+Current	Ratio:	3,089	Attempts:	259	Success:	8	DetectTime:	11043	DecodeTime:	66	When:	452400
+Current	Ratio:	3,396	Attempts:	265	Success:	9	DetectTime:	8083	DecodeTime:	136	When:	476120
+Current	Ratio:	2,618	Attempts:	382	Success:	10	DetectTime:	9927	DecodeTime:	54	When:	677320
+Current	Ratio:	2,771	Attempts:	397	Success:	11	DetectTime:	11325	DecodeTime:	88	When:	702320
+Current	Ratio:	3,234	Attempts:	402	Success:	13	DetectTime:	1365	DecodeTime:	112	When:	721880
+Current	Ratio:	3,704	Attempts:	405	Success:	15	DetectTime:	8096	DecodeTime:	145	When:	726520
+Current	Ratio:	3,704	Attempts:	486	Success:	18	DetectTime:	4885	DecodeTime:	142	When:	921360
+Current	Ratio:	3,901	Attempts:	487	Success:	19	DetectTime:	11824	DecodeTime:	52	When:	921520
+Current	Ratio:	4,481	Attempts:	491	Success:	22	DetectTime:	8126	DecodeTime:	179	When:	926560

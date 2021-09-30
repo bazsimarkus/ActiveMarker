@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C66D7947-BDFD-41AC-975F-33321F5E8CE9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TrackingLib</RootNamespace>
+    <AssemblyName>TrackingLib</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Camera\CameraBase.cs" />
+    <Compile Include="Camera\CameraOne.cs" />
+    <Compile Include="Car\Car.cs" />
+    <Compile Include="Car\CarID.cs" />
+    <Compile Include="Decoding\DecodedValue.cs" />
+    <Compile Include="Decoding\DecoderBase.cs" />
+    <Compile Include="Decoding\DecoderThreeSymbol.cs" />
+    <Compile Include="Decoding\DecoderTwoSymbol.cs" />
+    <Compile Include="Detection\MarkerSymbol.cs" />
+    <Compile Include="Detection\MarkerSequence.cs" />
+    <Compile Include="Detection\DetectedMarker.cs" />
+    <Compile Include="Detection\DetectorOne.cs" />
+    <Compile Include="Detection\DetectorBase.cs" />
+    <Compile Include="Detection\DepthFirstAlgorithm.cs" />
+    <Compile Include="Drawing\DrawTheoreticalMarker.cs" />
+    <Compile Include="Drawing\DrawCapturedLed.cs" />
+    <Compile Include="Drawing\DrawPath.cs" />
+    <Compile Include="Flashing\Flasher.cs" />
+    <Compile Include="Flashing\LedTiming.cs" />
+    <Compile Include="Flashing\SymbolBase.cs" />
+    <Compile Include="Flashing\SymbolListBase.cs" />
+    <Compile Include="Flashing\SymbolListThreeSymbolWithError.cs" />
+    <Compile Include="Flashing\SymbolListThreeSymbol.cs" />
+    <Compile Include="Flashing\SymbolListTwoSymbolWithError.cs" />
+    <Compile Include="Flashing\SymbolListTwoSymbol.cs" />
+    <Compile Include="Flashing\SymbolOneWithError.cs" />
+    <Compile Include="Flashing\SymbolOne.cs" />
+    <Compile Include="Marker\MarkerTheoretical.cs" />
+    <Compile Include="Drawing\DrawList.cs" />
+    <Compile Include="Engine.cs" />
+    <Compile Include="Frame.cs" />
+    <Compile Include="Marker\LedCaptured.cs" />
+    <Compile Include="Path\PathBase.cs" />
+    <Compile Include="Path\PathRectangle.cs" />
+    <Compile Include="Path\PathInfinite.cs" />
+    <Compile Include="Path\PathCircle.cs" />
+    <Compile Include="Path\PathNode.cs" />
+    <Compile Include="Point2D.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Q.cs" />
+    <Compile Include="RandNum.cs" />
+    <Compile Include="SimulationSetup\ThreeSymbol\SimulationSetupBasicThreeSymbolWithTimingError.cs" />
+    <Compile Include="SimulationSetup\ThreeSymbol\SimulationSetupBasicThreeSymbol.cs" />
+    <Compile Include="SimulationSetup\ThreeSymbol\SimulationSetupRectangleThreeSymbolWithTimingError.cs" />
+    <Compile Include="SimulationSetup\TwoSymbol\SimulationSetupApproach2.cs" />
+    <Compile Include="SimulationSetup\TwoSymbol\SimulationSetupApproach5.cs" />
+    <Compile Include="SimulationSetup\TwoSymbol\SimulationSetupApproach4.cs" />
+    <Compile Include="SimulationSetup\TwoSymbol\SimulationSetupApproach3.cs" />
+    <Compile Include="SimulationSetup\TwoSymbol\SimulationSetupBasicWithTimingError.cs" />
+    <Compile Include="SimulationSetup\TwoSymbol\SimulationSetupRectangleWithTimingError.cs" />
+    <Compile Include="SimulationSetup\TwoSymbol\SimulationSetupInfiniteWithNoise.cs" />
+    <Compile Include="SimulationSetup\TwoSymbol\SimulationSetupBasicTwo.cs" />
+    <Compile Include="SimulationSetup\TwoSymbol\SimulationSetupBasic.cs" />
+    <Compile Include="SimulationSetup\SimulationSetupBase.cs" />
+    <Compile Include="Statistics\DecodingStatistics.cs" />
+    <Compile Include="Tracking\TrackedMarker.cs" />
+    <Compile Include="Tracking\TrackerBase.cs" />
+    <Compile Include="Tracking\TrackerOne.cs" />
+    <Compile Include="VelocityController\VelocityControllerConstWithNoise.cs" />
+    <Compile Include="VelocityController\VelocityControllerConst.cs" />
+    <Compile Include="VelocityController\VelocityControllerBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Camera\ClassDiagramCamera.cd" />
+    <None Include="Car\ClassDiagramCar.cd" />
+    <None Include="ClassDiagramEngine.cd" />
+    <None Include="ClassDiagramFrame.cd" />
+    <None Include="Decoding\ClassDiagramDecoder.cd" />
+    <None Include="Detection\ClassDiagramDetector.cd" />
+    <None Include="Detection\ClassDiagramDFS.cd" />
+    <None Include="Flashing\ClassDiagramFlasher.cd" />
+    <None Include="Flashing\ClassDiagramSymbol.cd" />
+    <None Include="Flashing\ClassDiagramSymbolList.cd" />
+    <None Include="Path\ClassDiagramPath.cd" />
+    <None Include="Tracking\ClassDiagramTracker.cd" />
+    <None Include="VelocityController\ClassDiagramVelocityController.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

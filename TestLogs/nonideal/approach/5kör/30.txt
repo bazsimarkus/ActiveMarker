@@ -1,0 +1,17 @@
+Current	Ratio:	100,000	Attempts:	4	Success:	4	DetectTime:	7704	DecodeTime:	60104	When:	69240
+Current	Ratio:	100,000	Attempts:	5	Success:	5	DetectTime:	11267	DecodeTime:	39	When:	73040
+Current	Ratio:	100,000	Attempts:	7	Success:	7	DetectTime:	10128	DecodeTime:	87	When:	75720
+Current	Ratio:	26,667	Attempts:	30	Success:	8	DetectTime:	9380	DecodeTime:	54	When:	150640
+Current	Ratio:	9,184	Attempts:	98	Success:	9	DetectTime:	7926	DecodeTime:	52	When:	300560
+Current	Ratio:	9,174	Attempts:	109	Success:	10	DetectTime:	11175	DecodeTime:	58	When:	325720
+Current	Ratio:	9,244	Attempts:	119	Success:	11	DetectTime:	10086	DecodeTime:	56	When:	350760
+Current	Ratio:	8,889	Attempts:	135	Success:	12	DetectTime:	2155	DecodeTime:	77	When:	377800
+Current	Ratio:	5,792	Attempts:	259	Success:	15	DetectTime:	14097	DecodeTime:	216	When:	620520
+Current	Ratio:	6,130	Attempts:	261	Success:	16	DetectTime:	8083	DecodeTime:	101	When:	625920
+Current	Ratio:	6,296	Attempts:	270	Success:	17	DetectTime:	10868	DecodeTime:	56	When:	650800
+Current	Ratio:	6,143	Attempts:	293	Success:	18	DetectTime:	7932	DecodeTime:	100	When:	700720
+Current	Ratio:	5,810	Attempts:	327	Success:	19	DetectTime:	1082	DecodeTime:	410	When:	822320
+Current	Ratio:	6,079	Attempts:	329	Success:	20	DetectTime:	8639	DecodeTime:	170	When:	826840
+Current	Ratio:	6,183	Attempts:	372	Success:	23	DetectTime:	5606	DecodeTime:	142	When:	922840
+Current	Ratio:	6,434	Attempts:	373	Success:	24	DetectTime:	982	DecodeTime:	55	When:	922880
+Current	Ratio:	7,181	Attempts:	376	Success:	27	DetectTime:	7656	DecodeTime:	220	When:	926400

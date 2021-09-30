@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TrackingLib.DetectorBase">
+    <Position X="3.5" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAIAAAAAAAAAABAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Detection\DetectorBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrackingLib.DetectorOne">
+    <Position X="5.75" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAIAQAAAABBAAAAAAAAAAAAAACCAAAAAA=</HashCode>
+      <FileName>Detection\DetectorOne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrackingLib.DetectedMarker">
+    <Position X="1.25" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAmAAAAAAAAAAACAAAgAAAAAAAAAQA=</HashCode>
+      <FileName>Detection\DetectedMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

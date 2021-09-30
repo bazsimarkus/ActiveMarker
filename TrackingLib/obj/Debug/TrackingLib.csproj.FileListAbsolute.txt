@@ -1,0 +1,6 @@
+C:\Users\User\Documents\activemarker-tracking\activemarker\ActiveMarker\TrackingLib\bin\Debug\TrackingLib.dll
+C:\Users\User\Documents\activemarker-tracking\activemarker\ActiveMarker\TrackingLib\bin\Debug\TrackingLib.pdb
+C:\Users\User\Documents\activemarker-tracking\activemarker\ActiveMarker\TrackingLib\obj\Debug\TrackingLib.csprojAssemblyReference.cache
+C:\Users\User\Documents\activemarker-tracking\activemarker\ActiveMarker\TrackingLib\obj\Debug\TrackingLib.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\activemarker-tracking\activemarker\ActiveMarker\TrackingLib\obj\Debug\TrackingLib.dll
+C:\Users\User\Documents\activemarker-tracking\activemarker\ActiveMarker\TrackingLib\obj\Debug\TrackingLib.pdb
